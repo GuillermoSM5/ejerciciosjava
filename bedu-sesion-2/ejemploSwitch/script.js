@@ -1,4 +1,4 @@
-var numDay = 9;
+var numDay = 0;
 var day;
 
 switch(numDay){
