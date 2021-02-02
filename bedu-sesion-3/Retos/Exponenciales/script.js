@@ -7,4 +7,4 @@ function exponencial(base,exponente){
      console.log(resultado);
 }
 
-exponencial(3,5);
+exponencial(3,2);

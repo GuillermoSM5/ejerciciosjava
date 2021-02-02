@@ -18,18 +18,17 @@ function conversion(car){
    return pairs;
 }
 
-var prueba = conversion(car);
+var arr = conversion(car);
 
-console.log(prueba);
 
-function arrayToObject(arr) {
-   var obj = {};
- 
-   for(var i = 0; i < arr.length; i++) {
-     obj[arr[i][0]] = arr[i][1]
-   }
- 
-   return obj;
- }
 
- console.log(arrayToObject(prueba));
+function arrayToObject(arr){
+    var obj = {};
+
+    for(var i  = 0 ; i< arr.length; i++){
+         obj[arr[i][0]] = arr[i][1];   
+    }
+
+    return obj;
+}
+console.log(arrayToObject(conversion(car)));
