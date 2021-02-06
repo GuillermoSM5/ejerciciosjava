@@ -1,4 +1,4 @@
-var time = 25;
+var time = 12;
 var greeting ;
 
 if (time < 12){
